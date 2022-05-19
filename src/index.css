@@ -1,0 +1,61 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-family: sans-serif;
+}
+
+body {
+  margin: 0;
+}
+
+.app_div {
+  position: absolute;
+  top: 40%;
+  left: 40%;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.header {
+  animation: moveInFromUp;
+  animation-duration: 2s;
+  animation-iteration-count: 1;
+}
+
+.header:hover {
+  animation: rotateHeader;
+  animation-duration: 2s;
+  animation-iteration-count: 1;
+}
+
+@keyframes rotateHeader {
+  100% {
+   transform: rotate(180deg);
+  }
+
+}
+
+
+@keyframes moveInFromUp {
+  0% {
+    transform: translateY(-140px);
+  }
+
+  100% {
+    transform: translate(0);
+  }
+}
+
+@keyframes moveInFromLeft {
+  0% {
+    transform: translateX(-140px);
+  }
+
+  100% {
+    transform: translate(0);
+  }
+}
