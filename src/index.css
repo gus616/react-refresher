@@ -14,7 +14,7 @@ body {
 
 .app_div {
   position: absolute;
-  top: 40%;
+  top: 20%;
   left: 40%;
   margin: 0 auto;
   text-align: center;
@@ -24,6 +24,7 @@ body {
   animation: moveInFromUp;
   animation-duration: 2s;
   animation-iteration-count: 1;
+  margin: 20px 0;
 }
 
 .header:hover {

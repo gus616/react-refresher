@@ -4,6 +4,7 @@ import './GoalList.css';
 
 const GoalList = (props) => {    
     const goals = props.goals;
+
     return (
         <ul className='goal-list'>
            {
